@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    height: 800px;
+}
+/*header*/
+header {
+    background-color: #BDC2CA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.custom-navbar {
+    transition: 300ms;
+}
+
+.custom-navbar :hover{
+    color: aliceblue;
+    opacity: 100%;
+}
+
+.logo img {
+    height: 50px;
+}
+
+/**/
+form {
+    margin-bottom: 20px;
+}
+
+input, select {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(145, 145, 145);
+}
+
+#dashboard {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#log button{
+    background-color: rgb(231, 231, 231);
+}
+
+#log button:hover{
+    background-color: rgb(97, 0, 0);
+    color: aliceblue;
+}
+
+/*welcome message*/
+#welcomeMessage {
+    font-size: 30px;
+}
+
+/*order*/
+#orders {
+    position: relative;
+    background-color: #E2E9EA;
+    border-radius: 10px;
+    border: 2px;
+    width: 300px;
+    height: 250px;
+    text-align: justify;
+    vertical-align: middle;
+}

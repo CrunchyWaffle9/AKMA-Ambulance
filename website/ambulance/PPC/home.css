@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: rgba(91, 122, 140, 0.349);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 888;
+}
+
+.logo img {
+    height: 50px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.ambulance {
+    text-align: center;
+    padding: 20px;
+}
+
+.ambulance img {
+    width: 20%;
+    height: auto;
+    max-width: 1000px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.custom-navbar {
+    transition: 300ms;
+}
+
+.custom-navbar :hover{
+    color: aliceblue;
+    opacity: 100%;
+}
+
+header {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0
+    
+}
+
+.hero {
+    position: relative;
+}

@@ -1,0 +1,122 @@
+body {
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #BDC2CA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 555;
+        position: -webkit-sticky; 
+        position: sticky;
+        top: 0
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.custom-navbar {
+    transition: 300ms;
+}
+
+.custom-navbar :hover{
+    color: aliceblue;
+    opacity: 100%;
+}
+
+.logo img {
+    height: 50px;
+}
+
+form {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+form input {
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+   }
+
+input, select, button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+button :hover{
+    color: antiquewhite;
+}
+
+h1, h2 {
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+}
+
+/* hero class*/
+
+.hero {
+    width: 100%;
+    padding: 10px;
+    margin-left: 15px;
+    position: relative;
+}
+
+.hero img{
+    position: relative;
+    left: 15%;
+    border-radius: 58px;
+}
+/* login kelas untuk center*/
+
+.center {
+    position: relative;
+    left: 40%;
+    background-color: #E2E9EA;
+    border-radius: 10px;
+    border: 2px;
+    width: 300px;
+    height: 200px;
+}
+
+/* login kelas untuk center*/
+.rt {
+    position: relative;
+    left: 40%;
+    background-color: #E2E9EA;
+    border-radius: 10px;
+    border: 2px;
+    width: 300px;
+    height: 390px;
+}
